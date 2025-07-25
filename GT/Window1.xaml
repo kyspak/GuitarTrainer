@@ -1,0 +1,15 @@
+﻿<Window x:Class="GT.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GT"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Guide" Height="700" Width="1050">
+    <Grid Margin="0,0,-0.4,1.4">
+        <ScrollViewer>
+            <Image Height="1700" Source="img1.png" Stretch="Fill" Width="1020"/>
+        </ScrollViewer>
+    </Grid>
+</Window>
